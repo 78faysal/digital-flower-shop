@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section {
+    background-color: rgb(255, 226, 231);
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.header-texts h2 {
+    font-size: 60px;
+}
+
+.header-texts p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    border: none;
+    background-color: rgb(255, 71, 71);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.header-img {
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+
+/* featured section  */
+.featured-section{
+    margin-bottom: 100px;
+}
+
+.featured-texts{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+.featured-texts p{
+    font-size: 15px;
+    color: gray;
+}
+
+.flower-trees{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flower-trees p{
+    text-decoration: underline;
+}
+
+.trees-item1 img{
+    background-color: rgb(252, 207, 214);
+    height: 350px;
+    padding: 45px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-bottom: 0px;
+}
+
+.trees-item2 img{
+    background-color: rgb(232, 232, 255);
+    width: 270px;
+    height: 360px;
+    padding: 35px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-bottom: 0px;
+}
+
+.trees-item3 img{
+    background-color: rgb(252, 207, 214);
+    height: 350px;
+    padding: 45px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding-bottom: 0px;
+}
+
+
+/* services section  */
+
+.services-section{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    width: 72%;
+    margin: auto;
+}
+
+.services-section div{
+    text-align: center;
+}
+
+
+/* offer section  */
+.offer-section{
+    background-color: rgb(255, 233, 237);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.offer-section-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding-top: 30px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.offer-section-container h1{
+    font-size: 30px;
+}
+.offer-section-container p{
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* social section  */
+.social-section{
+    margin-bottom: 100px;
+}
+.flower-images{
+    /* width: 72%; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: auto;
+}
+
+.flower-images img{
+    width: 250px;
+}
+
+.social-texts{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.social-texts p{
+    font-size: 15px;
+    color: gray;
+}
+
+
+/* footer section */
+.highlight-text{
+    color: rgb(255, 71, 71);
+}
+
+footer{
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 100px;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
