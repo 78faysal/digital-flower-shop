@@ -7,7 +7,6 @@
 .header-section {
     background-color: rgb(255, 226, 231);
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
@@ -30,10 +29,15 @@
     border: none;
     background-color: rgb(255, 71, 71);
     color: white;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 5px;
+    font-size: 15px;
+}
+
+.button:hover{
+    background-color: rgb(255, 41, 41);    
 }
 
 .header-img {
@@ -174,6 +178,26 @@
     color: gray;
 }
 
+/* deals section  */
+.deals-section{
+    background-image: url('./images/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 150px;
+    width: 56%;
+    margin: auto;
+}
+.deals-section p{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.deals-section input{
+    padding: 15px;
+    border: 0px;
+}
+
 
 /* footer section */
 .highlight-text{
@@ -185,9 +209,15 @@ footer{
     background: #000;
     color: white;
     padding: 100px;
+    margin-top: 100px;
 }
 
 footer p{
     margin-top: 10px;
     margin-bottom: 10px;
+    color: rgb(199, 199, 199);
+}
+
+footer span{
+    color: gray;
 }
